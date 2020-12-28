@@ -12,7 +12,7 @@ import time
 """
 To scrape webpages that use scrollers to continously load new content 
 
-NOTE: Require selenium chromedriver to be dowbloaded and stored in the same directory as the scrapy.cfg file 
+NOTE: Require selenium library and selenium chromedriver to be downloaded and stored in the same location as the scrapy.cfg file 
 """
  
 class ActSpider(scrapy.Spider):
